@@ -28,7 +28,7 @@ app.get("/api/status", (_req, res) => {
   res.json({ status: "ok", subject: "PaaS", week: 5, platform: "Cloudflare Workers" });
 });
 app.get("/api/info", (_req, res) => {
-  res.json({ framework: "Express", runtime: "Cloudflare Workers", course: "Platform as a Service" });
+  res.json({ framework: "Express", runtime: "Cloudflare Workers", course: "Platform as a Service", redeploy: true });
 });
 app.get("/api/log-test", (_req, res) => {
   console.log("Endpoint /api/log-test dipanggil");
