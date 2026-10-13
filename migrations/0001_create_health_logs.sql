@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS health_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  weight_kg REAL NOT NULL,
+  sleep_hours REAL NOT NULL,
+  water_glasses INTEGER NOT NULL,
+  note TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
