@@ -12,6 +12,10 @@
       "database_id": "2dd9f26d-625a-4379-86af-7bda53b27cfc"
     }
   ],
+  "assets": {
+    "directory": "./public",
+    "run_worker_first": ["/api/*"]
+  },
   "observability": {
     "enabled": true
   }
